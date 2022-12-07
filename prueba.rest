@@ -1,0 +1,11 @@
+GET http://localhost:3000/products
+
+###
+POST  http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "descripcion": "Azucar 1Lb", 
+    "precio": 2.50,
+    "stock": 50
+}
